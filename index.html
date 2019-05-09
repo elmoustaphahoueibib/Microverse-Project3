@@ -12,19 +12,65 @@
     <h1 class="alert alert-primary text-center" style="color:black">Customer Information form</h1>
 
     <div class="container">
-        <div class="row">
-            * Name: <input type="text" class="form-control" required placeholder="Enter Your name"> 
-        </div>
-        <div class="row">
-            * Last Name: <input type="text" class="form-control" required placeholder="Your Last name">
-        </div>
-        <div class="row">
-            * Email: <input type="email" class="form-control" required placeholder="Your email"> 
-        </div>
+        
+            <form>
+                    <div class="form-group">
+                        <label for="text">* Name: </label>
+                        <input type="text" class="form-control" placeholder="Enter your name here">
+                        <label for="text">* Last Name :</label>
+                        <input type="email" class="form-control" placeholder="Enter your name here">
+                      <label for="email">* Email address :</label>
+                      <input type="email" class="form-control"  placeholder="Enter your email here">
+                    </div>
 
-        <div class="row">
-           *  Which Option describe you best: 
-        </div>
+                    <br>
+
+                    <div class="form-group">
+                      <label for="FormControlSelect">Why would you like to join Microverse</label>
+                      <select class="form-control">
+                        <option>Student</option>
+                        <option>Full Time Job</option>
+                        <option>Part Time Job</option>
+                        <option>Unemployed</option>
+                        <option>Open Source Project</option>
+                      </select>
+                    </div>
+                  
+                    <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                            <label class="form-check-label" for="exampleRadios1">
+                              Definitly
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              Maybe
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                            <label class="form-check-label" for="exampleRadios3">
+                              Not Sure
+                            </label>
+                          </div>
+                          <br>
+
+                          <div class="form-group">
+                                <label for="FormControlSelect">Why did you heard about Microverse</label>
+                                <select class="form-control">
+                                  <option>Facebook</option>
+                                  <option>Medium</option>
+                                  <option>Ads</option>
+                                </select>
+                              </div>
+
+                        <br>
+                    <div class="form-group">
+                      <label for="textarea">Send a Message</label>
+                      <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                  </form>
     </div>
 </body>
 </html>
