@@ -9,18 +9,18 @@
     <title>Microverse Survey Form</title>
 </head>
 <body>
-    <h1 class="alert alert-primary text-center" style="color:black">Customer Information form</h1>
+    <h1 class="alert alert-primary text-center" style="color:black">Microverse Student Survey</h1>
 
     <div class="container">
         
             <form>
                     <div class="form-group">
-                        <label for="text">* Name: </label>
-                        <input type="text" class="form-control" placeholder="Enter your name here">
-                        <label for="text">* Last Name :</label>
-                        <input type="email" class="form-control" placeholder="Enter your name here">
-                      <label for="email">* Email address :</label>
-                      <input type="email" class="form-control"  placeholder="Enter your email here">
+                        <label for="text"><span class="required">*</span> Name: </label>
+                        <input type="text" class="form-control" placeholder="First Name">
+                        <label for="text"><span class="required">*</span>  Last Name :</label>
+                        <input type="email" class="form-control" placeholder="Last Name">
+                      <label for="email"><span class="required">*</span>  Email address :</label>
+                      <input type="email" class="form-control"  placeholder="Email">
                     </div>
 
                     <br>
@@ -28,15 +28,23 @@
                     <div class="form-group">
                       <label for="FormControlSelect">Why would you like to join Microverse</label>
                       <select class="form-control">
-                        <option>Student</option>
-                        <option>Full Time Job</option>
-                        <option>Part Time Job</option>
-                        <option>Unemployed</option>
-                        <option>Open Source Project</option>
+                  
+                        <option>Get Full Time Job</option>
+                        <option>Get Part Time Job</option>
+            
+                        <option>Do Open Source Projects</option>
+                        <option>Do Build Portfolio</option>
+                        <option>Make International Connections</option>
+
+
                       </select>
                     </div>
+
+                    <label for="" style= "margin: 20px 0">Would you like to recommend Microverse</label>
                   
                     <div class="form-check">
+                            
+
                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
                             <label class="form-check-label" for="exampleRadios1">
                               Definitly
@@ -57,11 +65,14 @@
                           <br>
 
                           <div class="form-group">
-                                <label for="FormControlSelect">Where did you heard about Microverse</label>
+                                <label for="FormControlSelect">Where did you hear about Microverse</label>
                                 <select class="form-control">
                                   <option>Facebook</option>
                                   <option>Medium</option>
-                                  <option>Ads</option>
+                                  <option>Google</option>
+                                  <option>Slack</option>
+                                  <option>Twitter</option>
+                                  <option>LinkedIn</option>
                                 </select>
                               </div>
 
@@ -70,6 +81,7 @@
                       <label for="textarea">Send a Message</label>
                       <textarea class="form-control" rows="3"></textarea>
                     </div>
+                    <button class="btn btn-primary btn-block">Submit</button>
                   </form>
     </div>
 
