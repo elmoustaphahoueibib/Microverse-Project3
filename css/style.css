@@ -1,1 +1,32 @@
+.required {
+	color: red;
+}
 
+input {
+	margin-bottom: 30px;
+}
+
+label {
+	font-family: Arial;
+	font-size: 17.5px;
+	color: #555;
+}
+
+body{
+	background-color: #dfd9f9;
+}
+
+form {
+	margin-bottom: 70px;
+}
+
+button {
+	margin-top: 40px;
+	font-size: 14px;
+}
+
+.alert-primary {
+	background-color: #9f96f5;
+	color: #eee;
+	font-weight: normal;
+}
